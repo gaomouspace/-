@@ -25,7 +25,7 @@ export default class App extends Component {
           }}></Route>
           <Route path="/ShoppingCart" component={ShoppingCart}></Route>
           <Route path="/" render={()=>{
-            return sessionStorage.getItem('code') === '200' ? <User/> : ""
+            return sessionStorage.getItem('code') === '200' ? <User/> : <Index/>
           }}></Route>
         </Switch>
       </div>
