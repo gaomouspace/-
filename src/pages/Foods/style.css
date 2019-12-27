@@ -1,0 +1,174 @@
+
+.FoodsHeader{
+    display: flex;
+    width: 100%;
+    height: 1rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.FoodsHeader>i{
+    width: 1rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.FoodsHeader div{
+    flex: 1;
+    height: 0.5rem;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.FoodsHeader div input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.bg{
+    width: 100%;
+    border-bottom: 0.02rem solid #dad6ce;
+    box-sizing: border-box;
+}
+.bg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Lists{
+    width: 100%;
+    height: 3.2rem;
+    background: white;
+}
+.Lists dl{
+    display: inline-flex;
+    width: 25%;
+    height: 1.6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Lists dl dt{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.Lists dl dt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+nav{
+    width: 100%;
+    height: 0.75rem;
+    border-bottom: 0.02rem solid #dad6ce;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    margin-top: 0.2rem;
+}
+.Goods{
+    width: 100%;
+}
+.Many{
+    width: 100%;
+    height: 2.72rem;
+    border-bottom: 0.02rem solid #f1f1f1;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.Many dl{
+    display: flex;
+}
+.Many dl dt{
+    padding:0.27rem;
+    width: 2rem;
+    box-sizing: border-box;
+}
+.Many dl dt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.Many dl dd {
+    padding: 0.27rem 0.27rem 0.27rem 0rem;
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Many dl dd div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.Many dl dd div:nth-child(2) div{
+    width: 1.2rem;
+}
+.Many dl dd div:nth-child(2) div img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Many dl dd div:nth-child(2) p:nth-child(2){
+    flex: 1;
+}
+.Many dl dd p:nth-child(3){
+    font-size: 0.22rem;
+}
+.Many dl dd p:nth-child(3) span{
+    color: #cbb16e;
+    background: #fbf4e4;
+    margin: 0rem 0.1rem;
+    font-size: 0.2rem;
+}
+.Many dl dd p:nth-child(4){
+    color: #9ed1cc;
+    border-bottom: 0.02rem solid #f1f1f1;
+    box-sizing: border-box;
+}
+.Many>div{
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0.44rem;
+    box-sizing: border-box;
+}
+.Many>div>p:nth-child(1){
+    display: inline-block;
+    color: #ffa968;
+    border: 0.02rem solid #ffa968;
+    box-sizing: border-box;
+}
+.tuan{
+    display: inline-block;
+    width: 0.26rem;
+    margin: 0rem 0.2rem;
+}
+.tuan img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.on{
+    position: fixed;
+    top: 0.8rem;
+}
+.ding{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background: rgba(20,60,120,.5);
+    text-align: center;
+    border-radius: 50%;
+    line-height: 1rem;
+}

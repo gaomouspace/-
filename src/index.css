@@ -1,0 +1,133 @@
+html,body,#root,.wrap{
+    width: 100%;
+    height: 100%;
+    font-size: 0.24rem;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.homeHeader{
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    width: 100%;
+    background: #ffce00;
+}
+.homeHeader p{
+    width: 1.45rem;
+    text-align: center;
+}
+.homeHeader > i{
+    width: 1rem;
+    text-align: center;
+}
+.homeHeader >div{
+    flex: 1;
+    height: 0.5rem;
+    background: #fff9e5;
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+}
+.homeHeader >div i{
+    width: 0.8rem;
+    text-align: center;
+}
+.homeHeader >div input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+.img{
+    width: 100%;
+}
+.img img{
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+section::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.emmmm{
+    overflow: auto;
+}
+
+section{
+    flex: 1;
+    background: #f0efed;
+}
+.Banner{
+    width: 100%;
+    height: 3.45rem;
+}
+.Banner dl{
+    display: inline-flex;
+    width: 20%;
+    height: 1.7rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.Banner dl dt{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.Banner dl dt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bottom >p{
+    line-height: 0.78rem;
+    border-bottom: 0.02rem solid #e7e3db;
+    box-sizing: border-box;
+}
+.bottom{
+    width: 100%;
+    background: white;
+    margin-top: 0.25rem;
+    padding: 0rem 0.2rem;
+    box-sizing: border-box;
+}
+.bottom dl{
+    display: flex;
+    padding: 0.2rem 0rem;
+    border-bottom: 0.02rem solid #e7e3db;
+    box-sizing: border-box;
+}
+.bottom dl dt{
+    width: 1.7rem;
+}
+.bottom dl dt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bottom dl dd {
+    padding: 0rem 0.2rem;
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom dl dd div{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom dl dd div p span{
+    color: #ff771d;
+}
+.bottom dl dd div p span b{
+    font-size: 0.3rem;
+}
+.wrap{
+    overflow: auto;
+}
